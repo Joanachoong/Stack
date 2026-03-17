@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3CCF1A2F4EDF5C0097D4BA /* StructuredGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CCF192F4EDF520097D4BA /* StructuredGap.swift */; };
+		4C5968BA2F42917D0048DC88 /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5968B92F4291780048DC88 /* Gauge.swift */; };
+		4CAB69E92F429E6E0020F014 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB69E82F429E590020F014 /* PrimaryButton.swift */; };
+		A100000001 /* ThethaFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000001 /* ThethaFeedApp.swift */; };
+		A100000002 /* QuestionnaireScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000002 /* QuestionnaireScreen.swift */; };
+		A100000003 /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000003 /* QuestionnaireViewModel.swift */; };
+		A100000004 /* QuestionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000004 /* QuestionModels.swift */; };
+		A100000005 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000005 /* Colors.swift */; };
+		A100000006 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000006 /* SplashScreenView.swift */; };
+		A100000007 /* LandingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000007 /* LandingScreenView.swift */; };
+		A100000008 /* DisclaimerScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000008 /* DisclaimerScreensView.swift */; };
+		A100000009 /* InputScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000009 /* InputScreensView.swift */; };
+		A100000010 /* ProgressScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000010 /* ProgressScreenView.swift */; };
+		A100000011 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000011 /* MultipleChoiceView.swift */; };
+		A100000012 /* BodyMeasurementScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000012 /* BodyMeasurementScreensView.swift */; };
+		A100000013 /* ConsentScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000013 /* ConsentScreensView.swift */; };
+		A100000014 /* BaselineCompleteScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000014 /* BaselineCompleteScreenView.swift */; };
+		A100000015 /* SliderChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000015 /* SliderChoiceView.swift */; };
+		A100000016 /* RiskExposureScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000016 /* RiskExposureScreenView.swift */; };
+		A100000017 /* FailurePatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000017 /* FailurePatternView.swift */; };
+		A100000018 /* BiologicalSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000018 /* BiologicalSummaryView.swift */; };
+		A100000019 /* OutcomeProjectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000019 /* OutcomeProjectionView.swift */; };
+		A100000020 /* MismatchConsequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000020 /* MismatchConsequenceView.swift */; };
+		A100000021 /* FinalAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000021 /* FinalAnalysisView.swift */; };
+		A100000022 /* PaywallScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000022 /* PaywallScreenView.swift */; };
+		A100000023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B100000023 /* Assets.xcassets */; };
+		A100000024 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000025 /* ProgressBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C3CCF192F4EDF520097D4BA /* StructuredGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredGap.swift; sourceTree = "<group>"; };
+		4C5968B92F4291780048DC88 /* Gauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge.swift; sourceTree = "<group>"; };
+		4CAB69E82F429E590020F014 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B100000001 /* ThethaFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThethaFeedApp.swift; sourceTree = "<group>"; };
+		B100000002 /* QuestionnaireScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireScreen.swift; sourceTree = "<group>"; };
+		B100000003 /* QuestionnaireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewModel.swift; sourceTree = "<group>"; };
+		B100000004 /* QuestionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModels.swift; sourceTree = "<group>"; };
+		B100000005 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B100000006 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		B100000007 /* LandingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreenView.swift; sourceTree = "<group>"; };
+		B100000008 /* DisclaimerScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerScreensView.swift; sourceTree = "<group>"; };
+		B100000009 /* InputScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputScreensView.swift; sourceTree = "<group>"; };
+		B100000010 /* ProgressScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressScreenView.swift; sourceTree = "<group>"; };
+		B100000011 /* MultipleChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceView.swift; sourceTree = "<group>"; };
+		B100000012 /* BodyMeasurementScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementScreensView.swift; sourceTree = "<group>"; };
+		B100000013 /* ConsentScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentScreensView.swift; sourceTree = "<group>"; };
+		B100000014 /* BaselineCompleteScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaselineCompleteScreenView.swift; sourceTree = "<group>"; };
+		B100000015 /* SliderChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderChoiceView.swift; sourceTree = "<group>"; };
+		B100000016 /* RiskExposureScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskExposureScreenView.swift; sourceTree = "<group>"; };
+		B100000017 /* FailurePatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailurePatternView.swift; sourceTree = "<group>"; };
+		B100000018 /* BiologicalSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiologicalSummaryView.swift; sourceTree = "<group>"; };
+		B100000019 /* OutcomeProjectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutcomeProjectionView.swift; sourceTree = "<group>"; };
+		B100000020 /* MismatchConsequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MismatchConsequenceView.swift; sourceTree = "<group>"; };
+		B100000021 /* FinalAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAnalysisView.swift; sourceTree = "<group>"; };
+		B100000022 /* PaywallScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallScreenView.swift; sourceTree = "<group>"; };
+		B100000023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B100000024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B100000025 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		C100000001 /* ThethaFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThethaFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E100000001 = {
+			isa = PBXGroup;
+			children = (
+				E100000002 /* ThethaFeed */,
+				E100000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E100000002 /* ThethaFeed */ = {
+			isa = PBXGroup;
+			children = (
+				B100000001 /* ThethaFeedApp.swift */,
+				B100000024 /* Info.plist */,
+				E100000003 /* Views */,
+				E100000004 /* ViewModels */,
+				E100000005 /* Models */,
+				E100000006 /* Constants */,
+				E100000008 /* Components */,
+				B100000023 /* Assets.xcassets */,
+			);
+			path = ThethaFeed;
+			sourceTree = "<group>";
+		};
+		E100000003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CCF192F4EDF520097D4BA /* StructuredGap.swift */,
+				B100000002 /* QuestionnaireScreen.swift */,
+				B100000006 /* SplashScreenView.swift */,
+				B100000007 /* LandingScreenView.swift */,
+				B100000008 /* DisclaimerScreensView.swift */,
+				B100000009 /* InputScreensView.swift */,
+				B100000010 /* ProgressScreenView.swift */,
+				B100000011 /* MultipleChoiceView.swift */,
+				B100000012 /* BodyMeasurementScreensView.swift */,
+				B100000013 /* ConsentScreensView.swift */,
+				B100000014 /* BaselineCompleteScreenView.swift */,
+				B100000015 /* SliderChoiceView.swift */,
+				B100000016 /* RiskExposureScreenView.swift */,
+				B100000017 /* FailurePatternView.swift */,
+				B100000018 /* BiologicalSummaryView.swift */,
+				B100000019 /* OutcomeProjectionView.swift */,
+				B100000020 /* MismatchConsequenceView.swift */,
+				B100000021 /* FinalAnalysisView.swift */,
+				B100000022 /* PaywallScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E100000004 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B100000003 /* QuestionnaireViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E100000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B100000004 /* QuestionModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E100000006 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B100000005 /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E100000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C100000001 /* ThethaFeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E100000008 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB69E82F429E590020F014 /* PrimaryButton.swift */,
+				4C5968B92F4291780048DC88 /* Gauge.swift */,
+				B100000025 /* ProgressBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F100000001 /* ThethaFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G100000003 /* Build configuration list for PBXNativeTarget "ThethaFeed" */;
+			buildPhases = (
+				F100000002 /* Sources */,
+				D100000001 /* Frameworks */,
+				F100000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThethaFeed;
+			productName = ThethaFeed;
+			productReference = C100000001 /* ThethaFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		H100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = G100000001 /* Build configuration list for PBXProject "ThethaFeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E100000001;
+			productRefGroup = E100000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F100000001 /* ThethaFeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F100000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F100000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000001 /* ThethaFeedApp.swift in Sources */,
+				A100000002 /* QuestionnaireScreen.swift in Sources */,
+				A100000003 /* QuestionnaireViewModel.swift in Sources */,
+				A100000004 /* QuestionModels.swift in Sources */,
+				A100000005 /* Colors.swift in Sources */,
+				A100000006 /* SplashScreenView.swift in Sources */,
+				A100000007 /* LandingScreenView.swift in Sources */,
+				A100000008 /* DisclaimerScreensView.swift in Sources */,
+				A100000009 /* InputScreensView.swift in Sources */,
+				A100000010 /* ProgressScreenView.swift in Sources */,
+				A100000011 /* MultipleChoiceView.swift in Sources */,
+				A100000012 /* BodyMeasurementScreensView.swift in Sources */,
+				A100000013 /* ConsentScreensView.swift in Sources */,
+				A100000014 /* BaselineCompleteScreenView.swift in Sources */,
+				A100000015 /* SliderChoiceView.swift in Sources */,
+				A100000016 /* RiskExposureScreenView.swift in Sources */,
+				A100000017 /* FailurePatternView.swift in Sources */,
+				4CAB69E92F429E6E0020F014 /* PrimaryButton.swift in Sources */,
+				A100000018 /* BiologicalSummaryView.swift in Sources */,
+				A100000019 /* OutcomeProjectionView.swift in Sources */,
+				A100000020 /* MismatchConsequenceView.swift in Sources */,
+				A100000021 /* FinalAnalysisView.swift in Sources */,
+				A100000022 /* PaywallScreenView.swift in Sources */,
+				4C3CCF1A2F4EDF5C0097D4BA /* StructuredGap.swift in Sources */,
+				A100000024 /* ProgressBarView.swift in Sources */,
+				4C5968BA2F42917D0048DC88 /* Gauge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G100000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G100000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G100000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TK36RPSYYA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ThethaFeed/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ThethaFeed;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.rork.thethafeedversiononewithoutanimationv1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		G100000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TK36RPSYYA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ThethaFeed/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ThethaFeed;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.rork.thethafeedversiononewithoutanimationv1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G100000001 /* Build configuration list for PBXProject "ThethaFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G100000002 /* Debug */,
+				G100000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G100000003 /* Build configuration list for PBXNativeTarget "ThethaFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G100000005 /* Debug */,
+				G100000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = H100000001 /* Project object */;
+}
